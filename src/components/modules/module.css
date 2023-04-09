@@ -1,0 +1,42 @@
+.cards{
+    display: flex;
+    flex-direction: column;
+    gap:0.5rem;
+    margin-top: 4rem;
+    margin-left: 2rem;
+}
+
+.moduleCard{
+    display: flex;
+    height: 40px;
+    width: 350px;
+    border: 1px solid blue;
+    border-radius: 5px;
+}
+.moduleCard > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.in,.out{
+    width: 20%;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+.name{
+   width: 60%; 
+   border: 1px solid blue;
+   background-color: rgb(238, 238, 253);
+}
+
+.buttons{
+    position: absolute;
+    bottom: 40px;
+    display: flex;
+    width: 340px;
+    justify-content: space-between;
+}
+
+.btn:hover{
+    cursor: pointer;
+}

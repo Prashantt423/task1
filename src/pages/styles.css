@@ -1,0 +1,83 @@
+.canvasBox {
+  width: 100%;
+  height: 100%;
+}
+.App {
+  width: 100vw;
+  height: 100vh;
+  flex-direction: column;
+  display: flex;
+}
+
+.box {
+  display: flex;
+}
+
+.moduleBox {
+  width: 40%;
+  /* justify-content: center; */
+  display: flex;
+  flex-direction: column;
+  border: 1px solid blue;
+}
+
+.modules {
+  background-color: white;
+  height: 40px;
+  width: 100%;
+  border: 1px solid blue;
+}
+
+.canvasBox {
+  width: 60%;
+}
+
+.navbar {
+  background-color: white;
+  height: 45px;
+  padding: 0.12rem;
+  color: black;
+  font-weight: 700;
+}
+
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 5rem 0;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 50vw;
+}
+tr:first-child {
+  background-color: #8f8fff;
+  color: white;
+}
+tr:first-child:hover {
+  cursor: unset;
+}
+tr:hover {
+  cursor: pointer;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dadaf9;
+}
+
+.nav {
+    position: absolute;
+    top: 0;
+    padding: 1rem 4.125rem;
+    width: 100%;
+}
